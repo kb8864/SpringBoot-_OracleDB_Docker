@@ -22,7 +22,10 @@
 > 
 > コンテナの起動（パスワードを設定して起動）:
 > docker run -d -p 1521:1521 -e ORACLE_PWD=<パスワード> -n oracle-free container-registry.oracle.com/database/free:latest
-> 
-> これだけでデータベースが立ち上がり、すぐに利用可能になる
+>
+> > これだけでデータベースが立ち上がり、すぐに利用可能になる
+> パスワードの設定は、
+> 例えば、パスワードを `MyPass1234` にしたい場合は、ターミナルに以下のように入力してエンターキー
+> docker run -d -p 1521:1521 -e ORACLE_PWD=MyPass1234 --name oracle-free container-registry.oracle.com/database/free:latest
 
 
