@@ -6,11 +6,17 @@
 > 後で編集、削除、更新、画面は後で追加する。
 
 > [!note]
-> Java Spring Boot + Oracle DB のWebアプリ開発手法
+> 学習内容
+> Java Spring Boot + Oracle DB のWebアプリ開発
+> 
 > Java開発環境構築
+> 
 > Oracle DB の基礎
+> 
 > JavaScpringBootプロジェクトの始め方
+> 
 > Java を使ってOracleDBへアクセスする方法
+> 
 > Tymeleaf 、 Bootstrap を使ったフロントエンドの実装方法
 >
 
@@ -29,3 +35,11 @@
 > docker run -d -p 1521:1521 -e ORACLE_PWD=MyPass1234 --name oracle-free container-registry.oracle.com/database/free:latest
 
 
+> [!tip]
+> 作成するアプリ情報
+> 
+> Javaのバージョン：21
+> Spring Bootのバージョン：4.06
+> SpringWeb,Tymeleaf 
+> DB：Oracle
+> コンテナ：Docker
